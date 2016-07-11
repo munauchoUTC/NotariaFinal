@@ -1,0 +1,135 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font: 12px/24px Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: #F2F2F2;
+}
+
+
+#formularioRegistro {
+	font: 16px/30px Arial, Helvetica, sans-serif;
+	color: #D33333;
+	text-align: center;
+	height: auto; 
+	width: 100%;
+	margin-top: -30px;	
+}
+
+h5 {
+	color: #60B001;
+	font-size: 28px;
+}
+
+.campo {
+	text-align: center;
+	background: #fffffa;
+	border: 0;
+	margin-top: 8px;
+	margin-bottom: 34px;
+	padding: 10px;
+	width: 400px;
+	height: 13px;
+	-webkit-box-shadow: 0 0 3px #252932;
+	-moz-box-shadow: 0 0 3px #252932;
+	-o-box-shadow: 0 0 3px #252932;
+	box-shadow: 0 0 3px #252932;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 3px #252932;
+}
+
+.campo:focus {
+	background: #fff;
+	outline: none;
+	box-shadow: 0 0 8px #24607f;
+}
+
+.boton {
+	background-color: #255484;
+	color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	border: 0;
+	padding: 10px;
+	width: 120px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.boton:hover {
+	background: #D33333;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+	box-shadow: 0px 0px 0px;
+}
+
+#btnRegistra {
+	background-color: #D33333;
+	color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	border: 0;
+	padding: 10px;
+	width: 120px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-right: 10px;
+}
+
+#btnRegistra:hover {
+	background: #244B68;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+
+#btnSalir {
+	width: 45px;
+	height: 25px;
+	font-size: 13px;
+	text-decoration: none;
+	background-color: #D33333;
+	color: #fff;
+	text-align: center;
+	
+	box-sizing: border-box;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding: 11px 45px;
+	margin-left: 10px;
+}
+
+#btnSalir:hover {
+	background-color: #244B68;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+

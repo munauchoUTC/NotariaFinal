@@ -1,0 +1,19 @@
+#foto{
+	color: black;
+	font-family: cambria;
+	font-size: 20px;	
+}
+
+#dos{
+	width:992px;
+	/*border : 2px solid #244B68;*/
+	height:345px;
+	float:right;
+	margin-top: -350px;
+}
+
+#fff{
+	
+	 float:right;
+	 background: #000;
+}
