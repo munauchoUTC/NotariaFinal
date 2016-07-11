@@ -151,6 +151,7 @@ if (isset($_POST['subir'])) {
         if (copy($ruta, $destino)) {
             $cedula= $_POST['cedula'];
             $nombres= $_POST['nombre'];
+            $apellidos= $_POST['apellidos'];
             $fechaN= $_POST['fechaN'];
             $genero= $_POST['genero'];
             $direccion= $_POST['direccion'];
@@ -159,7 +160,10 @@ if (isset($_POST['subir'])) {
             $otorgada= $_POST['otorgada'];
             $nuevodu= $_POST['nuevodu'];
             $db=new Conect_MySql();
-            $sql = "INSERT INTO cliente(cedula_cli,nombre_cli,fecha_nacimiento_cli,genero_cli,direccion_cli,estado_civil_cli,tipo_escritura_cli,otorgacion_cli,dueno_cli,tamanio,tipo,nombre_archivo) VALUES('$cedula','$nombres','$fechaN','$genero','$direccion','$estadoci','$tipoes','$otorgada','$nuevodu','$tamanio','$tipo','$nombre')";
+            $sql = "INSERT INTO cliente(cedula_cli,nombre_cli,apellido_cli,fecha_nacimiento_cli,genero_cli,direccion_cli,
+            	estado_civil_cli,tipo_escritura_cli,otorgacion_cli,dueno_cli,tamanio,
+            	tipo,nombre_archivo) VALUES('$cedula','$nombres','$apellidos','$fechaN','$genero','$direccion',
+            	'$estadoci','$tipoes','$otorgada','$nuevodu','$tamanio','$tipo','$nombre')";
             $query = $db->execute($sql);
             if($query){
                 echo "El usuario ya esta registrado en el sistema";
@@ -199,7 +203,17 @@ if (isset($_POST['subir'])) {
 		                                 <div class="form-group" style="margin-bottom: 25px">
 		                                    <label class="col-md-3 control-label">Nombres:</label>
 		                                    <div class="col-md-9">
-		                                        <input input type="text" name="nombre" class="form-control" onkeypress="ValidaSoloLetras();" placeholder="Nombres Completos" required/>
+		                                        <input input type="text" name="nombre" class="form-control" onkeypress="ValidaSoloLetras();" placeholder="Nombres " required/>
+		                                   	<p class="error" style="color: red; font-weight: bold;">
+												
+												</p>
+		                                    </div>
+		                                </div>
+
+		                                <div class="form-group" style="margin-bottom: 25px">
+		                                    <label class="col-md-3 control-label">Apellidos:</label>
+		                                    <div class="col-md-9">
+		                                        <input input type="text" name="nombre" class="form-control" onkeypress="ValidaSoloLetras();" placeholder="Apellidos" required/>
 		                                   	<p class="error" style="color: red; font-weight: bold;">
 												
 												</p>
