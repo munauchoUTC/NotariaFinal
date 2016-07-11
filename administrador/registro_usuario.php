@@ -192,7 +192,7 @@ if (isset($_POST['subir'])) {
 		                                  <div class="form-group" style="margin-bottom: 25px">
 		                                	 <label for="email" class="col-md-3 control-label">Cedula:</label>
 		                                    <div class="col-md-9">
-		                                        <input type="text" name="cedula" maxlength="10" class="form-control" data-minlength="10" onkeypress="ValidaSoloNumeros();" placeholder="Cédula" required/><br>
+		                                        <input type="text" name="cedula" maxlength="10" minlength="10"class="form-control" data-minlength="10" onkeypress="ValidaSoloNumeros();" placeholder="Cédula" required/><br>
 		                                        <p class="error" style="color: red; font-weight: bold;">
 												</p>
 												

@@ -191,7 +191,7 @@ echo "<script>alert('SE A CAMBIADO DE ADMINISTRADOR GRACIAS :)');</script>";
 		                                  <div class="form-group" style="margin-bottom: 25px">
 		                                	 <label for="email" class="col-md-3 control-label">Cédula:</label>
 		                                    <div class="col-md-9">
-		                                        <input type="text" id="email" maxlength="10" class="form-control" data-minlength="10" onkeypress="ValidaSoloNumeros();" name="cedula" placeholder="Ingrese su cédula" value="<?php echo $var2 ?>" value="" required/><br>
+		                                        <input type="text" id="email" maxlength="10" minlength="10" class="form-control" data-minlength="10" onkeypress="ValidaSoloNumeros();" name="cedula" placeholder="Ingrese su cédula" value="<?php echo $var2 ?>" value="" required/><br>
 		                                        <p class="error" style="color: red; font-weight: bold;">
 												</p>
 												
