@@ -130,7 +130,7 @@
 				<h5>Dirección</h5>
 				<p>
 					La NOTARÍA TERCERA se encuentra atendiendo en la Calle Quito 1313 Y Tarqui 
-					Esq.Diagonal Al Gal Provincial De Cotopaxi A las Oficinas del IESS
+					Esq.Diagonal al GAD Provincial De Cotopaxi entre las Oficinas del IESS
 				</p>
 </center>
 			</section>
