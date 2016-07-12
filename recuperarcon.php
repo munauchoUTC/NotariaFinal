@@ -97,6 +97,17 @@
 												
 		                                    </div>
 		                                </div>
+		                             <div class="form-group" style="margin-bottom: 25px">
+		                                	 <label for="email" class="col-md-3 control-label">Email:</label>
+		                                    <div class="col-md-9">
+		                                        <input type="email" id="email" class="form-control" name="usuario" placeholder="Vuelve a Digitarlo" value="" required/><br>
+		                                        
+												<p class="error" style="color: red; font-weight: bold;">
+												
+												</p>
+												
+		                                    </div>
+		                                </div>
 		                                <br>
 		                               
 		                                <br>
