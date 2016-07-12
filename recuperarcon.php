@@ -74,7 +74,7 @@
 	</header>
 <br><br>
 
-<form method="post" >
+<form method="post" action="validarpre.php">
     
 		        <div  style="margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 		                    <div class="panel panel-info" style="background: rgba(255, 255, 255, .9);">
